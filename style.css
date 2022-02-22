@@ -1,0 +1,118 @@
+body {
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  background-image: url(gymBG.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 705px;
+  font-family: "Baloo Bhai 2", cursive;
+}
+
+.left {
+  display: inline-block;
+  /* border: 2px solid red; */
+  position: absolute;
+  left: 40px;
+  top: 2px;
+  width: 25%;
+  height: 20%;
+}
+.logo {
+  width: 34%;
+  /* height: 7% !important; */
+  border: 1px solid black;
+  border-radius: 10px;
+  filter: invert(10%);
+}
+#leftH3 {
+  padding-left: 7%;
+  margin-block-start: -0.5em;
+  margin-block-end: 0em;
+}
+
+.mid {
+  display: block;
+  /* border: 2px solid green; */
+  width: 38%;
+  margin: 15px 30%;
+}
+.navbar li {
+  display: inline-block;
+  padding: 8px 12px;
+  font-size: 22px;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.959);
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  color: rgba(244, 255, 255, 0.671);
+  /* box-shadow: 100; */
+}
+
+.right {
+  display: inline-block;
+  /* border: 2px solid yellow; */
+  position: absolute;
+  right: 40px;
+  top: 29px;
+}
+.btn {
+  cursor: pointer;
+  background-color: black;
+  font-size: 20px;
+  font-family: "Baloo Bhai 2", cursive;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.right .btn{
+  border: 1px solid grey;
+  color: white;
+}
+
+.container {
+  /* border: 2px solid red; */
+  margin-top: 100px;
+  height: 550px;
+  width: 50%;
+}
+.join {
+  text-align: center;
+  font-size: 25px;
+  /* padding-left:20%; */
+}
+.container input {
+  font-family: "Baloo Bhai 2", cursive;
+  display: block;
+  margin-left: 25%;
+  width: 50%;
+  padding: 2px;
+  margin-top: 7px;
+  background-color: antiquewhite;
+  opacity: 0.8;
+  font-size: 25px;
+}
+container #inputBtn {
+  cursor: pointer;
+  background-color: rgba(124, 115, 115, 0.123);
+  margin-top: 15px;
+  opacity: 5;
+  color: rgb(238, 230, 230);
+  font-size: 20px;
+  font-weight: 800;
+  border: 3px solid white;
+  font-family: "Baloo Bhai 2", cursive;
+  border-radius: 8px;
+  /* text-decoration: ;  */
+}
+#inputBtn:hover {
+  background-color: #ffffff;
+  color: #4c9ed9;
+}
